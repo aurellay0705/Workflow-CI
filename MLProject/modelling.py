@@ -13,8 +13,6 @@ from sklearn.metrics import (
 
 
 mlflow.set_experiment("Titanic_Classification")
-
-# Autolog untuk memenuhi Basic
 mlflow.autolog()
 
 
