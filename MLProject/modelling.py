@@ -61,4 +61,3 @@ with mlflow.start_run(run_name="RandomForest_Basic"):
     print("=" * 40)
 
 print("\nTraining selesai")
-print("Jalankan: mlflow ui")
