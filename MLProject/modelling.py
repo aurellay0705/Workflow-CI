@@ -53,9 +53,4 @@ print("Recall   :", round(recall,4))
 print("F1 Score :", round(f1,4))
 print("=" * 40)
 
-mlflow.log_metric("accuracy", accuracy)
-mlflow.log_metric("precision", precision)
-mlflow.log_metric("recall", recall)
-mlflow.log_metric("f1_score", f1)
-
 print("\nTraining selesai")
